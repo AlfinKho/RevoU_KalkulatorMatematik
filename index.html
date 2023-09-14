@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/javasc.js"></script>
+<html>
+    <head>
+        <title>Kalkulator Matematik Persegi</title>
+        <div class="navbar">
+            <div class="navbarJudul">
+            <h1>Katik</h1>
+            <h2>Kalkulator Matematik</h2>
+        </div>
+        <div class="navbarTab">
+            <a href="#persegi" id="link_persegi" >Persegi</a>
+            <a href="#persegiPanjang" id="link_persegiPanjang">Persegi Panjang</a>
+        </div>
+        </div>
+    </head>
+    <body>
+        <div class="card" id="persegi">
+            <h2>Persegi</h2>
+            <div class="keliling_P">
+                <h3>Keliling</h3>
+                <section id="output_KP">
+            </section>
+
+                <label>Sisi</label>
+                <input type="text" id="K_Kotak">
+                <input type="submit" id="hitungKeliling_Kotak" value="Hitung Keliling">
+                <input type="submit" id="hapusKeliling_Kotak" value="Hapus">
+            </div>
+            <div class="luas_P">
+                <h3>Luas</h3>
+                <section id="output_LP">
+                
+            </section>
+
+                <label>Sisi</label>
+                <input type="text" id="L_Kotak">
+                <input type="submit" id="hitungLuas_Kotak" value="Hitung Luas">
+                <input type="submit" id="hapusLuas_Kotak" value="Hapus">
+            </div>
+        </div>
+
+        <div class="card" id="persegiPanjang">
+            <h2>Persegi Panjang</h2>
+            <div class="keliling_PP">
+                <h3>Keliling</h3>
+                <section id="output_KPP">
+                    
+                </section>
+
+                <label>Panjang</label>
+                <input type="text" id="K_panjang">
+                <label>Lebar</label>
+                <input type="text" id="K_lebar">
+                <input type="submit" id="hitungKeliling_PP" value="Hitung Keliling">
+                <input type="submit" id="hapusKeliling_PP" value="Hapus">
+            </div>
+            <div class="luas_PP">
+                <h3>Luas</h3>
+                <section id="output_LPP">
+                </section>
+
+                <label>Panjang</label>
+                <input type="text" id="L_panjang">
+                <label>Lebar</label>
+                <input type="text" id="L_lebar">
+                <input type="submit" id="hitungLuas_PP" value="Hitung Luas">
+                <input type="submit" id="hapusLuas_PP" value="Hapus">
+            </div>
+        </div>
+    </body>
+</html>
