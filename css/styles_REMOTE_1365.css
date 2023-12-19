@@ -1,0 +1,63 @@
+/* //////////////HEAD/////////////////// */
+
+head{
+  font-family: 'Trebuchet MS',  sans-serif;
+}
+
+.navbar{
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  background:linear-gradient(90deg, #0f526a 0%, #22a3ca 100%);
+}
+.navbarJudul{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.navbarTab{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+h1{
+  margin-right: 20px;
+  letter-spacing: 7px;
+  font-size: 50px;
+}
+
+.navbarTab a {
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 14px 20px;
+  text-decoration: none;
+  
+}
+
+.navbarTab a:hover, a:focus{
+  border: 2px solid rgba(255, 255, 255, 0.646);
+  border-radius: 14px;
+}
+
+/* //////////////////////BODY/////////// */
+
+body{
+  font-family: 'Trebuchet MS',  sans-serif;
+  margin-top: 270px;
+}
+
+.card{
+  padding: 20px;
+  display: grid;
+  gap: 1rem;
+  border-radius:10px;
+  box-shadow:2px 5px 10px #e4e4e4, -1px -1px 10px #ffffff;
+}
+
+@media (min-width: 1100px) {
+  .card { grid-template-columns: repeat(2, 1fr); }
+}
